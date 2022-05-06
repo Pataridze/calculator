@@ -1,0 +1,126 @@
+#main-box {
+  border: 5px solid red;
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  overflow: auto;
+}
+
+table, th, td {
+  border: 1px solid;
+  /* margin-right: 12px; */
+  border-spacing: 10px 0;
+  border-color:#000000;
+  margin: 0 auto;
+   
+}
+
+
+table {
+  text-align: left;
+  position: relative;
+}
+
+th {
+  background: rgb(68, 255, 0);
+  position: sticky;
+  top: 0;
+}
+
+table tr td:first-of-type {
+  text-align: center;
+}
+
+.summary {
+  width: 700px;
+  height: 120px;
+  background-color: aqua;
+  border: 5px solid black;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+  text-align: center;
+  display: none;
+
+}
+
+
+
+.button {
+  /* margin: 10%, 0, 0, 0; */
+  /* position: relative; */
+  /* margin: 0 auto; */
+  background-color:red;
+  color: rgba(251, 255, 4, 0.896);
+  font-size: 16.5px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.parameters {
+  width: 700px;
+  height: 200px;
+  background-color: rgb(0, 255, 115);
+  border: 5px solid black;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  
+  display: block;
+  margin: 0, 0, 10px, 0;
+  /* padding: 0, 0, 0, 20px;   */
+}
+
+.parameters h2 {
+  padding: 0;
+}
+
+#box {
+  /* border: 1px solid black; */
+  /* float: left; */
+  /* padding-left: 10px; */
+  overflow: auto; 
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 600px;
+  top: 0px;
+
+}
+
+input {
+  width: 70px;
+  margin-bottom: 20px;
+  /* margin: 0px, 10px, 20px, 10px; */
+}
+
+#submitBtn {
+  width: 100px;
+  height: 30px;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#clearBtn {
+  width: 100px;
+  height: 30px;
+  color: black;
+  /* background-color: gray; */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+label {
+  margin: 0, 0, 15px ,10px;
+}
+
+
+.invisible {
+  display: none;
+}
+
